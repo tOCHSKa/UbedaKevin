@@ -128,3 +128,4 @@ class NavigationPage {
 }
 
 new NavigationPage();
+

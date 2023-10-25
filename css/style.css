@@ -1030,3 +1030,17 @@ section:nth-child(odd) .animate.scroll {
     font-size: 2rem;
     color: #333;
     }
+
+   
+@media (max-width: 900px) {
+    .portfolio .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 480px) {
+    .portfolio .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}

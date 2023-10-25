@@ -719,7 +719,8 @@ span {
     width: 105%;
 }
 
-section:nth-child(odd) .animate.scroll {
+section:nth-child(odd) .animate.scroll,
+.footer .animate.scroll {
     background: var(--second-bg-color);
 }
 
